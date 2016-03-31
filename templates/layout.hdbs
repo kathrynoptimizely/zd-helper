@@ -1,0 +1,85 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+</header>
+<div class="help-bar"><a href="https://docs.google.com/document/d/1_T-b_71kP2CpqMfi2Ul3c_czlxxqGsGGgQVGxEEOUfk">Zendesk 2.0 Help</a></div>
+<section data-main>
+
+    <input id="tab1" type="radio" name="tabs">
+    <label for="tab1">Overview</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">User</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Subscription</label>
+
+    <div class="warning">
+      <p class="red">This subscription is no longer active!</p>
+      <p class="orange">This user is a recent detractor</p>
+      <p class="orange">This account is currently in onboarding</p>
+      <p class="red">No organization is associated with this ticket! Please update this via the user profile.</p>
+    </div>
+    
+    <section id="content1">
+      <p class="head">Plan:</p>
+      <div id="plan">
+        <p class="1">Bronze</p>
+        <p class="2">Silver</p>
+        <p class="3">Gold</p>
+        <p class="4">Platinum</p>
+        <p class="5">Enterprise - Standard</p>
+        <p class="6">Enterprise - Elite</p>
+        <p class="7">Enterprise - Pro</p>
+        <p class="8">Enterprise - Premium</p>
+        <p class="9">Enterprise</p>
+        <p class="10">PayGo</p>
+        <p class="11">Starter</p>
+        <p class="12">Not subscribed</p>
+        <p class="13">Unknown</p>
+      </div>
+      <p class="head">Certifications:</p>
+      <div id="certs">
+        <p>Product Certified</p>
+        <p>Developer Certified</p>
+        <p>None</p>
+      </div>
+      <p class="head">Partner Information:</p>
+      <div id="partner">
+        <p>This is a partner</p>
+        <p>Supported by </p>
+      </div>
+      <p class="head">Products:</p>
+      <div id="product">
+        <p>iOS & Android</p>
+        <p>iOS</p>
+        <p>Android</p>
+        <p>A/B Testing</p>
+        <p>P13n</p>
+      </div>
+      <p class="head">Segment:</p>
+      <div id="segment">
+        <p>Strategic</p>
+        <p>Enterprise</p>
+        <p>Corporate</p>
+        <p>SMB</p>
+      </div>
+    </section>
+
+
+</section>
+<footer>
+  <div class="acc_notes">
+    <h6>Account Notes</h6>
+    <div></div>
+    <textarea id="acc_notes_input"></textarea>
+  </div>
+  <div class="links">
+    <p>Go to SFDC Account</p>
+    <p>Go to SFDC Subscription</p>
+    <p>Go to SFDC Contact/Lead</p>
+  </div>
+  <a href="mailto:{{author.email}}">
+    Email developer
+  </a>
+</footer>

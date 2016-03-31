@@ -1,0 +1,16 @@
+<section data-main>
+  <div class="table">
+  	<div class="row one">Ticket</div>
+  	<div class="row two">User</div>
+  	<div class="row three">Organisation</div>
+  	<div class="content">
+	    <li>
+	    	<ul class="1">Name: {{user.name}}</ul>
+	    	<ul class="2">Tickets this Month: {{user.user_fields.tickets_closed_this_month}}</ul>
+	    	<ul class="3">Phone Number: {{user.user_fields.user_phone_number}}</ul>
+	    	<ul class="4">Partner? {{user.user_fields.user_is_partner}}</ul>
+	    </li>
+	  </div>
+  </div>
+	  
+</section>

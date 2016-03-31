@@ -1,0 +1,63 @@
+<section data-main>
+
+    <input id="tab1" type="radio" name="tabs">
+    <label for="tab1">Overview</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">User</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Subscription</label>
+
+    <div class="warning">
+      <p class="red">This subscription is no longer active!</p>
+      <p class="orange">This user is a recent detractor</p>
+      <p class="orange">This account is currently in onboarding</p>
+    </div>
+    <section id="content1">
+      <p class="head">Plan:</p>
+      <div id="plan">
+        <p class="1">Bronze</p>
+        <p class="2">Silver</p>
+        <p class="3">Gold</p>
+        <p class="4">Platinum</p>
+        <p class="5">Enterprise - Standard</p>
+        <p class="6">Enterprise - Elite</p>
+        <p class="7">Enterprise - Pro</p>
+        <p class="8">Enterprise - Premium</p>
+        <p class="9">Enterprise</p>
+        <p class="10">PayGo</p>
+        <p class="11">Starter</p>
+        <p class="12">Not subscribed</p>
+        <p class="13">Unknown</p>
+      </div>
+      <p class="head">Certifications:</p>
+      <div id="certs">
+        <p>Product Certified</p>
+        <p>Developer Certified</p>
+        <p>None</p>
+      </div>
+      <p class="head">Partner Information:</p>
+      <div id="partner">
+        <p>This is a partner</p>
+        <p>Supported by </p>
+      </div>
+      <p class="head">Products:</p>
+      <div id="product">
+        <p>iOS & Android</p>
+        <p>iOS</p>
+        <p>Android</p>
+        <p>A/B Testing</p>
+        <p>P13n</p>
+      </div>
+      <p class="head">Segment:</p>
+      <div id="segment">
+        <p>Strategic</p>
+        <p>Enterprise</p>
+        <p>Corporate</p>
+        <p>SMB</p>
+      </div>
+    </section>
+
+
+</section>

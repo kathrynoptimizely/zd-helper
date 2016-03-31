@@ -1,0 +1,52 @@
+<section data-main>
+  <main>
+
+    <input id="tab1" type="radio" name="tabs">
+    <label for="tab1">Overview</label>
+
+    <input id="tab2" type="radio" name="tabs" >
+    <label for="tab2">User</label>
+
+    <input id="tab3" type="radio" name="tabs" checked>
+    <label for="tab3">Subscription</label>
+
+    <section id="content3">
+	    	<div id="wrap">
+            <div id="left_col">
+                <p class="1">Name:</p>
+                <p class="2">CSM:</p>
+                <p class="3">AE:</p>
+                <p class="4">Region:</p>
+                <p class="5">Plan:</p>
+                <p class="6">Support Tier:</p>
+                <p class="7">MUVs:</p>
+                <p class="8">Currently onboarding:</p>
+                <p class="9">Partner:</p>
+                <p class="10">Sub Start Date:</p>
+                <p class="11">Sub End Date:</p>
+                <p class="12">Parent Account:</p>
+                <p class="13">Account MRR:</p>
+                <p class="14">Sub MRR:</p>
+                <p class="15">Churn Risk:</p>
+            </div>
+            <div id="right_col">
+                <p class="1"></p>
+                <p class="2"></p>
+                <p class="3"></p>
+                <p class="4"></p>
+                <p class="5"></p>
+                <p class="6"></p>
+                <p class="7"></p>
+                <p class="8"></p>
+                <p class="9"></p>
+                <p class="10"></p>
+                <p class="11"></p>
+                <p class="12"></p>
+                <p class="13"></p>
+                <p class="14"></p>
+                <p class="15"></p>
+            </div>
+        </div>
+    </section>
+  </main>  
+</section>

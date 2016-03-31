@@ -1,0 +1,38 @@
+<section data-main>
+
+    <input id="tab1" type="radio" name="tabs">
+    <label for="tab1">Overview</label>
+
+    <input id="tab2" type="radio" name="tabs" checked>
+    <label for="tab2">User</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Subscription</label>
+
+    <section id="content2">
+        <div id="wrap">
+            <div id="left_col">
+                <p class="1">Name:</p>
+                <p class="2">Phone:</p>
+                <p class="3">Partner:</p>
+                <p class="4">Platform Certification:</p>
+                <p class="5">Developer Certification:</p>
+                <p class="6"># Tickets this Month:</p>
+                <p class="7">Last OPS Score:</p>
+                <p class="8">Language:</p>
+                <p class="9">Timezone:</p>
+            </div>
+            <div id="right_col">
+                <p class="1"></p>
+                <p class="2"></p>
+                <p class="3"></p>
+                <p class="4"></p>
+                <p class="5"></p>
+                <p class="6"></p>
+                <p class="7"></p>
+                <p class="8"></p>
+                <p class="9"></p>
+            </div>
+        </div>
+    </section> 
+</section>

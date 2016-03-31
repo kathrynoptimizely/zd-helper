@@ -1,0 +1,12 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main>
+  <div><There was an error retrieving the data./div>
+</section>
+<footer>
+  <a href="mailto:{{author.email}}">
+    Email developer
+  </a>
+</footer>
