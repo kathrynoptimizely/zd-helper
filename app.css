@@ -1,0 +1,156 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1 'Open Sans', sans-serif;
+  color: #555;
+  background: #eee;
+}
+
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: block;
+  padding: 10px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 5px 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+  overflow:hidden;
+  max-width:32%;
+}
+
+label:before, .head {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid blue;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+.head, .links {
+	color:#bbb;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:bold;
+}
+
+.links p {
+  font-size:10px;
+  text-align:center;
+  background-color:#F2F2F2;
+}
+
+#certs p, #partner p, #product p, #segment p, #left_col p, #right_col p, #plan p {
+  display:none;
+}
+
+#content1 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.warning, .help-bar {
+  text-align:center;
+  width:100%;
+}
+
+.red {
+  background-color:#FF6666;
+  color:#FAD4D4;
+  display:none;
+}
+
+.orange {
+  background-color:#FFBA4A;
+  color:#FCEDD9;
+  display:none;
+}
+
+.acc_notes textarea {
+  display:none;
+  min-height:50px;
+  width:100%;
+}
+
+.acc_notes div {
+  padding:2%;
+  display:inline-block;
+  min-height:50px;
+  width:100%;
+  -webkit-box-shadow: inset 2px 2px 2px 1px rgba(199,199,199,1);
+  -moz-box-shadow: inset 2px 2px 2px 1px rgba(199,199,199,1);
+  box-shadow: inset 2px 2px 2px 1px rgba(199,199,199,1);
+  border: 1px solid rgba(199,199,199,1);
+  border-radius: 2px;
+}
+
+.acc_notes h6 {
+  text-align:center;
+}
+
+#wrap {
+   width:100%;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:55%;
+   padding-bottom:5%;
+   color:#bbb;
+   font-weight:bold;
+}
+#right_col {
+   float:right;
+   width:45%;
+   padding-bottom:5%;
+}
+
+#content3 #left_col {
+  width: 40%;
+}
+
+#content3 #right_col {
+  width: 60%;
+}
