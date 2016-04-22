@@ -162,9 +162,9 @@
         userUrl = "https://c.na28.visual.force.com/apex/Skuid_ContactDetail?id=" + user.customField("zendesk_salesforce_contact_id") + "&sfdc.override=1";
       }
 
-      this.$(".links p:eq(1)").replaceWith("<p><a href=" + orgUrl + "target='_blank'>Go to SFDC Subscription</a></p>");
-      this.$(".links p:eq(0)").replaceWith("<p><a href=" + accUrl + "target='_blank'>Go to SFDC Account</a></p>");
-      this.$(".links p:eq(2)").replaceWith("<p><a href=" + userUrl + "target='_blank'>Go to SFDC User</a></p>");
+      this.$(".links p:eq(1)").replaceWith("<p><a href=" + orgUrl + " target='_blank'>Go to SFDC Subscription</a></p>");
+      this.$(".links p:eq(0)").replaceWith("<p><a href=" + accUrl + " target='_blank'>Go to SFDC Account</a></p>");
+      this.$(".links p:eq(2)").replaceWith("<p><a href=" + userUrl + " target='_blank'>Go to SFDC User</a></p>");
 
       // Account Notes
       this.$(".acc_notes div").text(org.customField("zendesk_account_notes"));
